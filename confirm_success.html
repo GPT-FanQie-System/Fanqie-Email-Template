@@ -1,28 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>confirm success</title>
-  <style>
-    html,body{
-      height: 100%;
-      background-color: #2c3e50;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .box{
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>注册成功</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+        }
+        .title {
+            font-size: 24px;
+            margin-top: 50px;
+        }
+        .content {
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-  <div class="box">
-    <h1 style="color: #fff;">您的账户已经创建成功，现在开始在App上登录吧！</h1>
-  </div>
+    <div class="container">
+        <div class="title">注册成功</div>
+        <div class="content">您已成功注册，感谢您的支持！</div>
+        <a class="button" href="#">查看更多信息</a>
+    </div>
 </body>
 </html>
