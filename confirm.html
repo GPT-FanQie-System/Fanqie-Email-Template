@@ -1,52 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GPT番茄自律系统</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- 外部样式表 -->
   <style>
-    body{
+    /* 添加您的自定义样式在这里 */
+    body {
       background-color: #334155;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 600px;
+      margin: 10% auto;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #2c3e50;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .content .btn {
+      display: block;
+      width: 100%;
+      max-width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      background-color: #ff0000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      color: #666;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: #000;
+      margin-right: 10px;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
+      line-height: 30px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <div class="app font-sans min-w-screen min-h-screen bg-grey-lighter py-8 px-4">
-    <div class="mail__wrapper max-w-md mx-auto">
-      <div class="mail__content bg-white p-8 shadow-md">
-        <div class="content__header text-center tracking-wide border-b">
-          <div class="text-red-500 text-sm font-bold">GPT番茄自律系统</div>
-          <h1 class="text-3xl h-48 flex items-center justify-center font-bold">确认邮件</h1>
-        </div>
-        <div class="content__body py-8 border-b">
-          <p>
-            你好！ <br><br>看起来您刚刚注册了该应用程序，太棒了！我们可以要求您提供电子邮件确认吗？只需点击下面的按钮即可。
-          </p>
-          <button class="text-white text-sm tracking-wide bg-red rounded w-full my-8 p-4 bg-red-500">确认邮件</button>
-          <p class="text-sm">
-            继续探索！<br>GPT番茄自律系统项目组 
-          </p>
-        </div>
-  
-        <div class="content__footer mt-8 text-center text-grey-darker">
-          <h3 class="sm:text-lg mb-4 font-bold text-grey-600">感谢您注册我们的App</h3>
-          <p>2766274062@qq.com</p>
-        </div>
-      </div>
-      <div class="mail__meta text-center text-sm text-grey-darker mt-8">
-        <div class="meta__social flex justify-center my-4">
-          <a href="#" class="flex items-center justify-center mr-4 bg-black text-white rounded-full w-8 h-8 no-underline"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="flex items-center justify-center mr-4 bg-black text-white rounded-full w-8 h-8 no-underline"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="flex items-center justify-center bg-black text-white rounded-full w-8 h-8 no-underline"><i class="fab fa-twitter"></i></a>
-        </div>
-        <div class="meta__help">
-          <p class="leading-loose text-white">
-            获取帮助？ <a href="#" class="text-grey-darkest">yuehua46.github.io</a>
-          </p>
-        </div>
-      </div>
+  <div class="wrapper">
+    <div class="header">
+      <h1>GPT番茄自律系统</h1>
+    </div>
+    <div class="content">
+      <h2>确认邮件</h2>
+      <p>
+        你好！<br><br>
+        看起来您刚刚注册了该应用程序，太棒了！我们可以要求您提供电子邮件确认吗？只需点击下面的按钮即可。
+      </p>
+      <a href="#" class="btn">确认邮件</a>
+      <p>
+        继续探索！<br>
+        GPT番茄自律系统项目组
+      </p>
+    </div>
+    <div class="footer">
+      <h3>感谢您注册我们的 App</h3>
+      <p>2766274062@qq.com</p>
+      <p>获取帮助？ <a href="https://yuehua46.github.io" class="text-grey-darkest">yuehua46.github.io</a></p>
     </div>
   </div>
 </body>
